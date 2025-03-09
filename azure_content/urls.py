@@ -7,4 +7,5 @@ urlpatterns = [
     path('create/', ProjectCreateView.as_view(),name="create"),
     path('edit/<int:pk>', ProjectEditView.as_view(),name="edit"),
     path('delete/<int:pk>', ProjectDeleteView.as_view(),name="delete"),
+    path('sensor-data/', views.receive_sensor_data, name='receive_sensor_data'),
 ]

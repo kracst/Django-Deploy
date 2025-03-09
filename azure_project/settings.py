@@ -26,7 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'azure_content.apps.AzureContentConfig', 
+    'azure_content.apps.AzureContentConfig',
+    'rest_framework',
     
 ]
 
